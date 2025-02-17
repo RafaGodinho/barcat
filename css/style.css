@@ -36,10 +36,22 @@ li {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
     transition: transform 0.2s;
 }
 li:hover {
     transform: scale(1.02);
+}
+.dish-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.dish-details {
+    flex: 1;
 }
 .dish-name {
     font-weight: bold;
