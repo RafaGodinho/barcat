@@ -2,7 +2,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background: url('../css/imagens/bar.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
 }
 header {
@@ -31,7 +32,7 @@ ul {
     padding: 0;
 }
 li {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com 80% de opacidade */
     margin: 10px 0;
     padding: 20px;
     border-radius: 8px;
