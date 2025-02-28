@@ -5,7 +5,7 @@ body {
     background: url('../css/imagens/bar.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
-    cursor: url('../css/imagens/pata.png'), auto;
+    cursor: url('../css/imagens/pata_cursor.png'), auto;
 }
 header {
     background-color: #444;
